@@ -19,6 +19,9 @@ line_ani = animation.FuncAnimation(fig1, update_line, 25, fargs=(data, l),
                                    interval=50, blit=False)
 #line_ani.save('lines.mp4')
 
+plt.show()
+
+
 fig2 = plt.figure()
 
 x = np.arange(-9, 10)
